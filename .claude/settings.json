@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:www.mindstudio.ai)",
+      "WebFetch(domain:reddit.com)",
+      "Bash(gh repo:*)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "Read(//Users/projectx/**)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(ls ~/.claude/agents/*.md)",
+      "Bash(ls -1 ~/.claude/skills/*.md)",
+      "Bash(ls -1d ~/.claude/skills/*/)",
+      "Bash(xargs -I {} basename {} .md)",
+      "Bash(mv framework-framework-nextjs-expert.md nextjs-expert.md)",
+      "Bash(mv react-react-expert.md react-expert.md)",
+      "Bash(mv typescript-typescript-expert.md typescript-expert.md)",
+      "Bash(mv refactoring-refactoring-expert.md refactoring-expert.md)",
+      "Bash(ls *.md)"
+    ],
+    "additionalDirectories": [
+      "/Users/projectx/Documents/Obsidian Vault/claude-based-development/docs/superpowers",
+      "/Users/projectx",
+      "/Users/projectx/.claude/agents/_archive"
+    ]
+  }
+}
