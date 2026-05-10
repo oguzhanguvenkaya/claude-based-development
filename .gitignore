@@ -1,0 +1,24 @@
+# Videos — large binaries downloaded from Vimeo (regenerable via tools/download_videos.py)
+**/videos/
+*.mp4
+*.m4a
+*.webm
+
+# Local Obsidian workspace state (personal preferences)
+.obsidian/
+
+# Claude Code local-only settings
+.claude/settings.local.json
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
