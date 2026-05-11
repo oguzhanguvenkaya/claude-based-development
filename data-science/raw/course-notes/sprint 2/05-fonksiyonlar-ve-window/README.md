@@ -15,13 +15,13 @@ tags: [course, sprint-2, sql, udf, window-functions, partition-by]
 **URL:** https://nextgen.workintech.com.tr/lesson/202/5
 
 ### Konu 1 — Kullanıcı Tanımlı Fonksiyonlar Oluşturmak ve Kullanmak
-- ✅ [[01-fonksiyonlari-ve-yerlesik-ornekleri-anlamak]] — Fonksiyonları ve Yerleşik Örnekleri Anlamak
-- ✅ [[02-sqlde-fonksiyon-tanimlama-ve-cagirma]] — SQL'de Fonksiyon Tanımlama ve Çağırma
+- ✅ 📝 [[01-fonksiyonlari-ve-yerlesik-ornekleri-anlamak]] — Fonksiyonları ve Yerleşik Örnekleri Anlamak
+- ✅ 📝 [[02-sqlde-fonksiyon-tanimlama-ve-cagirma]] — SQL'de Fonksiyon Tanımlama ve Çağırma
 
 ### Konu 2 — Window Fonksiyonları
-- ✅ [[03-neden-window-fonksiyonlarina-ihtiyacimiz-var]] — Neden Window Fonksiyonlarına İhtiyacımız Var?
-- ✅ [[04-partition-by-ve-over-kullanimi]] — PARTITION BY ve OVER Kullanımına Giriş
-- ✅ [[05-window-ile-farkli-detay-seviyelerinde-join]] — Window Fonksiyonlarıyla Farklı Detay Seviyelerinde Join İşlemleri
+- ✅ 📝 [[03-neden-window-fonksiyonlarina-ihtiyacimiz-var]] — Neden Window Fonksiyonlarına İhtiyacımız Var?
+- ✅ 📝 [[04-partition-by-ve-over-kullanimi]] — PARTITION BY ve OVER Kullanımına Giriş
+- ✅ 📝 [[05-window-ile-farkli-detay-seviyelerinde-join]] — Window Fonksiyonlarıyla Farklı Detay Seviyelerinde Join İşlemleri
 
 ## Projeler
 - [ ] Fonksiyonlar — https://nextgen.workintech.com.tr/project/202/5?pid=7604

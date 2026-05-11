@@ -1,0 +1,17 @@
+---
+sprint: 1
+lesson_slug: 02-kpi-temelleri
+video_slug: 01-adim-1-sorular-sor
+video_file: videos/01-adim-1-sorular-sor.mp4
+duration_seconds: 225
+model: gpt-4o-transcribe
+language: tr
+transcribed_at: 2026-05-10T18:22:43Z
+tags: [transcript, sprint-1]
+---
+
+# Adim 1 sorular sor
+
+> Otomatik transkript — kaynak: `videos/01-adim-1-sorular-sor.mp4` (ders: Kpi Temelleri). Düzeltmeler için video referans alınmalıdır.
+
+Veri analizi, en güçlü halini, açık ve adım adım ilerleyen bir yöntemle yapıldığında gösterir. Bu nedenle, Google gibi modern teknoloji şirketleri, analistlerini net ve tekrarlanabilir adımlar izleme konusunda eğitirler. Yedi temel adım şunlardır. Bir iş vakasıyla adımların tek tek üzerinden geçeceğiz. İlk adımla başlayalım. Sorular sormak. İyi bir analist, veriden değil, net ve merak uyandıran sorulardan başlar. Bunu bir iş senaryosuyla açıklayalım. GreenFit, Hollanda merkezli, organik yiyecek satan bir e-ticaret şirketi. Birinci perde, başarısızlık. 2025'te GreenFit'in finans ekibi, genç analist Emma Junior Adams'tan günlük karlılığı takip etmesini ister. Amaç, daha iyi bütçe kararları alabilmektir ve Emma'ya Nisan 2025 verileri sunulur. Emma, hiç soru sormadan hızlıca grafikler oluşturur. Grafikler, görüntüde güzel ve şıktır ama iş birimi hiçbir sorunumuzu çözmedi der. Bu hikayeden çıkarılacak ders şu. İyi sorular yoksa iyi cevaplar da yoktur. Çoğu başlangıç düzeyindeki analist, analist sürecinin veriyle başladığını zanneder. Oysa her şey doğru sorularla başlar. Eğer doğru soruları sormazsan tüm grafiklerin ve tabloların hiçbir işe yaramayabilir. İkinci perde, ilerleme. Emma, bu hatadan sonra soru sormanın önemini fark eder ve sorar. Bu analize neden ihtiyacınız var? İş hedefi ne? Karlılığı etkileyen faktörleri anlamak için günlük marjları izlemek. Neden şimdi? Ekip, bütçe planlamasını geliştirmek için maliyet görünürlüğüne ihtiyaç duyuyor. Kim ilgileniyor? Finans ekibi ama aynı zamanda marjları etkileyen pazarlama kampanyaları. Nerede odaklanılmalı? Fransa siparişlerinde. Nasıl çözülebilir? Temel göstergeleri içeren bir Google Sheets dashboard oluşturmak. Bu tarz soruların cevaplarını dinledikçe Emma, veri ekibiyle daha uyumlandığını fark etti. Araştırmalara göre ihtiyaçları baştan netleştiren ekipler, gereksiz çalışmaları %40'a kadar azaltabiliyor. Üçüncü perde, başarı. Soru sormak bir dedektif gibi düşünmeyi gerektirir. Yani sadece dile getirilen iş ihtiyaçlarını değil, aynı zamanda dile getirilmeyen gizli sorunları da ortaya çıkarmak. Emma, biraz daha derinlemesine düşünmeye başladı. Finans ekibinin dile getirdiği ihtiyaç, günlük karlılığı takip etmek istiyoruz şeklinde. Fakat Emma, bunun arkasında yatan gizli problemi de buldu. Aslında karsız reklam kampanyaları var ve bu durum marj sorununa yol açıyor. Gerçek ihtiyaç, hangi kampanyaların karlılığı düşürdüğünü bulup bütçeyi doğru şekilde yönlendirmekti. İş birimleri genelde sadece semptomu söyler, asıl problemi değil. Ders şu, ilk yanıttan sonra durma, neden sorusunu sormaya devam et. Ta ki gerçek ihtiyacı görene kadar. Bir dedektif her zaman kim, ne, neden, nerede, ne zaman, nasıl sorularını sorar. Bir veri analisti de aynısını yapmalıdır. Sonuç, doğru soruları sorduğunda sadece rakamları çözmekle kalmaz, gerçek iş problemlerini de çözersin. Bu da seni güvenilir ve değerli bir analist yapar. Emma Junior Adams da bunu yaptı ve içgörüleri sayesinde şirketin pazarlama maliyetlerini %24 oranında azalttı.

@@ -15,21 +15,21 @@ tags: [course, sprint-2, sql, aggregation, group-by]
 **URL:** https://nextgen.workintech.com.tr/lesson/202/2
 
 ### Konu 1 — Aggregation (Hesaplama) Fonksiyonları
-- ✅ [[01-aggregate-fonksiyonu-nedir]] — (Aggregate) Fonksiyonu Nedir?
-- ✅ [[02-count-countif]] — COUNT, COUNTIF
-- ✅ [[03-sum-avg-min-max]] — SUM, AVG, MIN/MAX
+- ✅ 📝 [[01-aggregate-fonksiyonu-nedir]] — (Aggregate) Fonksiyonu Nedir?
+- ✅ 📝 [[02-count-countif]] — COUNT, COUNTIF
+- ✅ 📝 [[03-sum-avg-min-max]] — SUM, AVG, MIN/MAX
 
 ### Konu 2 — Aggregation (Hesaplama) Fonksiyonları - 2
-- ✅ [[04-safe-divide-fonksiyonu]] — SAFE_DIVIDE Fonksiyonu
-- ✅ [[05-group-by]] — GROUP BY
-- ✅ [[06-where-ve-having-ile-filtreleme]] — WHERE ve HAVING ile Filtreleme
+- ✅ 📝 [[04-safe-divide-fonksiyonu]] — SAFE_DIVIDE Fonksiyonu
+- ✅ 📝 [[05-group-by]] — GROUP BY
+- ✅ 📝 [[06-where-ve-having-ile-filtreleme]] — WHERE ve HAVING ile Filtreleme
 
 ### Konu 3 — Veri Türleri ve Fonksiyonlar
-- ✅ [[07-sayisal-fonksiyonlar-round]] — Sayısal Fonksiyonlar: ROUND
-- ✅ [[08-concat-ile-sutunlari-birlestirme]] — CONCAT() ile Sütunları Birleştirme
-- ✅ [[09-sutunlardaki-metinleri-degistirme]] — Sütunlardaki Metinleri Değiştirme
-- ✅ [[10-buyuk-kucuk-harf-bicimi]] — Metinlerin Büyük/Küçük Harf Biçimini Değiştirme
-- ✅ [[11-date-sub-ile-zaman-araligi-cikarma]] — DATE_SUB ile Tarihlerden Zaman Aralığı Çıkarma
+- ✅ 📝 [[07-sayisal-fonksiyonlar-round]] — Sayısal Fonksiyonlar: ROUND
+- ✅ 📝 [[08-concat-ile-sutunlari-birlestirme]] — CONCAT() ile Sütunları Birleştirme
+- ✅ 📝 [[09-sutunlardaki-metinleri-degistirme]] — Sütunlardaki Metinleri Değiştirme
+- ✅ 📝 [[10-buyuk-kucuk-harf-bicimi]] — Metinlerin Büyük/Küçük Harf Biçimini Değiştirme
+- ✅ 📝 [[11-date-sub-ile-zaman-araligi-cikarma]] — DATE_SUB ile Tarihlerden Zaman Aralığı Çıkarma
 
 ## Projeler
 - [ ] Circle Stok Takibi — https://nextgen.workintech.com.tr/project/202/2?pid=7593

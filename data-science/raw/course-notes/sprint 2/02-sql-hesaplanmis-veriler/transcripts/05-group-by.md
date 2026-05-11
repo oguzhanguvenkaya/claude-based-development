@@ -1,0 +1,17 @@
+---
+sprint: 2
+lesson_slug: 02-sql-hesaplanmis-veriler
+video_slug: 05-group-by
+video_file: videos/05-group-by.mp4
+duration_seconds: 246
+model: gpt-4o-transcribe
+language: tr
+transcribed_at: 2026-05-10T18:24:28Z
+tags: [transcript, sprint-2]
+---
+
+# Group by
+
+> Otomatik transkript — kaynak: `videos/05-group-by.mp4` (ders: Sql Hesaplanmis Veriler). Düzeltmeler için video referans alınmalıdır.
+
+Verileri Gruplamak, Grup Bay. Temel Fikir. SQL'deki Grup Bay ifadesi, satırları bir veya birden fazla sütuna göre gruplamak ve her grup için özet bilgiler hesaplamak için kullanılır. Buna örnek olarak, sum, count ve avg gibi toplu aggregate fonksiyonlar verilebilir. Bölüm 1. Sorun, Başarısızlık. FreshCart adlı çevrim içi markette veri analistiyim. Pazarlama ekibi bana iki soru sordu. Julie, geçen ay ne kadar harcama yaptı ve genel olarak en çok harcama yapan müşteriler kimler? Satın alma tablosunu açıyorum. Müşteri, ürün, harcama, tarih. Binlerce satır var. Tek tek gözle tarayarak bu bilgiyi bulmam mümkün değil. Bölüm 2. Yaklaşım, İlerleme. Bu yüzden grup bay kullanacağız. Böylece yüzlerce, binlerce detay satır yerine her müşteri için tek bir özet satır oluşturacağız. Yöntem. Adım 1. Gruplama anahtarlarını seç. Her satır neyi temsil etsin istiyorsun? Müşteri mi? Ürün mü? Yoksa müşteri ve ay kombinasyonu mu? Adım 2. Toplama fonksiyonlarını seç. Sum, spend toplam harcama için. Count, satın alma sayısını bulmak için. Avg spend, ortalama harcama değerini görmek için. Adım 3. Sorguyu yaz. Select kısmına gruplanan sütunları ve toplama fonksiyonlarını ekle. Grup bay, from ve varsa where kısmından sonra gelir. Kural, select içinde toplama fonksiyonu kullanılmayan her sütun mutlaka grup bay içinde de yer almalı. Demo. Basit örnek, kişi başına toplam harcama. Select, buyer, sum spend as total spend from purchases, group by buyer. Sonuç, her alıcı için bir satır döner. Paul 10.0, Julius 12.50, Thomas 5.0, Pauline 17.50. Artık Julie ne kadar harcama yaptığı sorusuna kolayca yanıt verebilirim. Where ekleyerek filtreleyebilirim. Select, buyer, sum spend as total spend from purchases, where buyer equals Julie, group by buyer. Gruplamayı değiştir. Ürün bazında toplamlar. Alıcı yerime ürüne göre gruplayarak bakış açımızı değiştirebiliriz. Select, product, sum spend as total spend from purchases, group by product. Birden fazla özet aynı grupta. Toplam, adet ve ortalama. Select, buyer, sum spend as total spend, count as purchase count, sum spend divided by count as average spend from purchases, group by buyer. Yorum, her müşteri için toplam harcama, kaç alışveriş yaptığı ve ortalama harcama bilgilerini görürsün. Örneğin, Paul 3 alışverişte toplam 10 harcamış gibi bir analiz müşterilerin değerini anlamanı sağlar. Eğer Excel'de pivot table kullandıysan, işte group by SQL tarafında tam olarak aynı işi yapar. Pivot table nasıl satırları grupluyor ve özetliyorsa, group by da SQL'de de aynı mantıkla çalışır. Özet, yöntem, gruplama anahtarını seç, toplama fonksiyonunu belirle, select plus group by yaz, gerekirse where, having ekle, order by ile sırala. Gösterdiklerimiz, müşteri bazında toplamlar, ürün bazında toplamlar, ayrıca count ve avg ekleme. Benzetme, group by kutular gibidir. Aggregate fonksiyonları bu kutulardaki veriyi özetleyen araçlardır. Ana fikir, group by, detay düzeyindeki yüzlerce satırı anlamlı birkaç özet satıra dönüştürür. Bu da sana iş sorularına hızlı ve doğru yanıt verebilme gücü kazandırır.

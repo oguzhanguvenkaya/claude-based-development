@@ -15,21 +15,21 @@ tags: [course, sprint-2, sql, join, testing]
 **URL:** https://nextgen.workintech.com.tr/lesson/202/3
 
 ### Konu 1 — SQL'de Tabloları Birleştirmek: JOIN
-- ✅ [[01-joine-giris]] — JOIN'e Giriş
-- ✅ [[02-join-kullanimi]] — JOIN Kullanımı
-- ✅ [[03-table-aliasing]] — Table Aliasing
-- ✅ [[04-join-turleri]] — JOIN Türleri
+- ✅ 📝 [[01-joine-giris]] — JOIN'e Giriş
+- ✅ 📝 [[02-join-kullanimi]] — JOIN Kullanımı
+- ✅ 📝 [[03-table-aliasing]] — Table Aliasing
+- ✅ 📝 [[04-join-turleri]] — JOIN Türleri
 
 ### Konu 2 — SQL'de Tabloları Birleştirmek: JOIN - 2
-- ✅ [[05-coklu-join-islemleri]] — Çoklu JOIN İşlemleri
-- ✅ [[06-join-ve-group-by]] — JOIN ve GROUP BY
-- ✅ [[07-join-dikkat-edilmesi-gerekenler]] — JOIN: Dikkat Edilmesi Gerekenler
+- ✅ 📝 [[05-coklu-join-islemleri]] — Çoklu JOIN İşlemleri
+- ✅ 📝 [[06-join-ve-group-by]] — JOIN ve GROUP BY
+- ✅ 📝 [[07-join-dikkat-edilmesi-gerekenler]] — JOIN: Dikkat Edilmesi Gerekenler
 
 ### Konu 3 — SQL'de Test Yazmak
-- ✅ [[08-neden-test-ediyoruz]] — Neden Test Ediyoruz?
-- ✅ [[09-primary-key-testi]] — Primary Key Testi
-- ✅ [[10-column-testi]] — Column Testi
-- ✅ [[11-deger-korunumu-testi]] — Değer Korunumu Testi
+- ✅ 📝 [[08-neden-test-ediyoruz]] — Neden Test Ediyoruz?
+- ✅ 📝 [[09-primary-key-testi]] — Primary Key Testi
+- ✅ 📝 [[10-column-testi]] — Column Testi
+- ✅ 📝 [[11-deger-korunumu-testi]] — Değer Korunumu Testi
 
 ## Projeler
 - [ ] Greenweez Finans - JOIN — https://nextgen.workintech.com.tr/project/202/3?pid=7599
