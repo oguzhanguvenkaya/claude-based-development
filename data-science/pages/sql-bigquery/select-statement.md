@@ -94,7 +94,7 @@ This matters: you cannot reference a `SELECT` alias inside `WHERE` because `WHER
 
 ## My Notes
 
-- In BigQuery, **column pruning** is a real cost concern. `SELECT *` from a 1 TB table can cost $5+; `SELECT one_column` from the same table might cost $0.10.
+- In BigQuery, **column pruning** is a real cost concern. `SELECT *` from a 1 TB table can cost $5+; `SELECT one_column` from the same table might cost $0.10. See [[Bigquery Query Cost Model]] for the full cost mechanics.
 - Practice: [CRM Kampanya Verisi ile Temel SQL İşlemleri](https://nextgen.workintech.com.tr/project/202/1?pid=7523) — practice listing columns explicitly.
 - Interview tip: when asked "how do you debug a slow query?", an early answer is "remove SELECT * and project only the columns I need."
 - Tooling tip: most SQL IDEs auto-complete column names after `SELECT` — learn the keyboard shortcut.

@@ -106,4 +106,4 @@ Inclusive on both ends. Equivalent to `order_date >= '2025-01-01' AND order_date
 - Three-valued logic catches people: `NULL = NULL` returns NULL, not TRUE. Always use IS NULL.
 - Practice: [CRM Kampanya Verisi ile Temel SQL İşlemleri](https://nextgen.workintech.com.tr/project/202/1?pid=7523) — practice combining filters for segment definitions.
 - Interview tip: when asked "what's the difference between WHERE and HAVING?", answer with execution order — WHERE is pre-aggregation, HAVING is post-aggregation.
-- In BigQuery, WHERE on a partitioned column reduces cost dramatically. Always include the partition filter when querying large tables.
+- In BigQuery, WHERE on a partitioned column reduces cost dramatically. Always include the partition filter when querying large tables. See [[Partitioning and Clustering]].

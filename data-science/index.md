@@ -2,7 +2,7 @@
 title: "Data Science Wiki — Index"
 domain: data-science
 updated: 2026-05-11
-total_pages: 46
+total_pages: 57
 ---
 
 # Data Science Wiki — Index
@@ -80,6 +80,19 @@ total_pages: 46
 - [[User Defined Functions Udf]] — CREATE FUNCTION (persistent and TEMP)
 - [[Window Functions Fundamentals]] — PARTITION BY, OVER, ranking, running totals
 - [[Window Functions Across Grain]] — Allocating coarse totals across fine-grained rows
+
+### Data Warehouse Architecture & Economics (Sprint 3 / Lesson 1)
+- [[Data Warehouse Economics Overview]] — Umbrella: architecture + cost map
+- [[Data Platform Overview]] — Five-layer modern data stack (sources → ingestion → storage → transform → consumption)
+- [[Data Pipeline Architecture]] — Bronze/Silver/Gold medallion + transformation stages
+- [[SQL Views in Pipelines]] — Views as reusable SQL recipes; materialized views
+- [[Views vs Tables Tradeoffs]] — Storage vs compute decision per pipeline step
+- [[Hybrid Table View Pipeline Pattern]] — Canonical production mix
+- [[Warehouse Storage vs Compute Cost]] — The two-meter cost model
+- [[Warehouse Pricing Models]] — On-demand vs flat-rate reservations
+- [[Modern Warehouse Comparison]] — BigQuery / Snowflake / Redshift / Databricks
+- [[Bigquery Query Cost Model]] — What BigQuery charges + columnar storage implications
+- [[Partitioning and Clustering]] — The biggest scan-cost reducer
 
 ## Python Data Tools
 <!-- Pages about pandas, numpy, scikit-learn, visualization -->

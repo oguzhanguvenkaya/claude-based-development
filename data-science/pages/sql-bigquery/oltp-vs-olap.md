@@ -72,7 +72,7 @@ Reports / dashboards / ML features
 - Related: [[Relational Data Model]] (used by both, applied differently), [[Entity Relationship Diagrams]]
 - Builds on: Operating system I/O patterns, indexing concepts
 - Compare with: NoSQL paradigms (key-value, document, graph) which solve different problems
-- Used by: Data warehouse design, [[Descriptive Statistics]] (analytics often run on OLAP)
+- Used by: Data warehouse design (see [[Data Warehouse Economics Overview]] and [[Data Platform Overview]]), [[Descriptive Statistics]] (analytics often run on OLAP)
 
 ## My Notes
 

@@ -113,3 +113,4 @@ This single query touches every page in the lesson. Reading these layers top to 
   - [Greenweez Satışlar](https://nextgen.workintech.com.tr/project/202/2?pid=7597) — full sales report with grouping and ratios
 - Returning to this overview after future lessons (joins, window functions) keeps the foundation visible while the wiki grows.
 - **Next lesson:** [[Joins Fundamentals]] (combining tables) and [[Testing Data Pipelines]] (validating the result).
+- **Sprint 3 follows:** [[Data Warehouse Economics Overview]] — architecture and cost of running SQL at production scale.

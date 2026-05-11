@@ -132,3 +132,33 @@ updated: 2026-05-11
   - Sprint 3 Lesson 1 (Advanced SQL: data warehouse cost, views, partitioning) — next iteration
   - Sprint 1 lessons (Google Sheets, KPI, Data Ecosystem) — pending
 - Next: Sprint 3 / Lesson 1 — İleri Seviye SQL (Data warehousing, BigQuery cost model, partitioning) OR Sprint 1 / Lesson 1 (Google Sheets)
+
+## [2026-05-12] ingest | Sprint 3 / Lesson 1 — İleri Seviye SQL (Data Warehousing)
+- Source: `raw/course-notes/sprint 3/01-ileri-seviye-sql/transcripts/` (13 transcripts, ~6,500 words)
+- Pages created (10):
+  - Architecture: [[Data Pipeline Architecture]] (01, 02 merged), [[Data Platform Overview]]
+  - Materialization: [[SQL Views in Pipelines]], [[Views vs Tables Tradeoffs]] (03, 05, 06 merged), [[Hybrid Table View Pipeline Pattern]]
+  - Cost mechanics: [[Warehouse Storage vs Compute Cost]], [[Warehouse Pricing Models]], [[Bigquery Query Cost Model]] (11, 12 merged)
+  - Vendors: [[Modern Warehouse Comparison]]
+  - Optimization: [[Partitioning and Clustering]]
+  - Umbrella: [[Data Warehouse Economics Overview]]
+- Pages revised (5):
+  - [[OLTP vs OLAP]] — linked to warehouse economics overview + data platform
+  - [[SQL Computed Data Overview]] — added Sprint 3 next-pointer
+  - [[Create Update Delete]] — linked to Views vs Tables Tradeoffs
+  - [[Select Statement]] — linked to BigQuery query cost model (column pruning context)
+  - [[Filtering Where]] — linked to Partitioning and Clustering
+- Wikilinks added: ~70 new cross-references; Sprint 2 ↔ Sprint 3 link density now substantial
+- Key takeaways:
+  - **Storage is cheap, compute is expensive, materialization shifts cost between them** — the single mental model that governs all warehouse decisions
+  - Bronze/silver/gold medallion architecture is the de facto pipeline standard; each layer has a contract with the next
+  - View-only pipelines are simple but recompute on every read; table-only pipelines are fast but stale and storage-heavy; hybrid is the production norm
+  - BigQuery prices by **bytes scanned**, primarily driven by **columns selected** (columnar storage) — column pruning + partitioning are 5+ orders of magnitude savings
+  - Modern warehouses (BigQuery, Snowflake, Redshift, Databricks) decouple storage and compute — older designs (Redshift legacy) coupled them
+  - Partitioning is binary: tables either have it (cheap queries) or don't (expensive queries) — middle ground rare
+- Sprint 3 / Lesson 1 milestone: **all warehouse foundations covered** ✓ (10 of remaining 4 lessons cover Git + dbt, which are tooling layers built ON these foundations)
+- Open questions:
+  - Git/GitHub workflows — Sprint 3 / Lesson 2 (not yet held)
+  - dbt models and orchestration — Sprint 3 / Lessons 3-4 (not yet held)
+  - Sprint 1 lessons (Google Sheets, KPI, Data Ecosystem) — still pending
+- Next: Sprint 1 / Lesson 1 — Google Sheets ile Analizin Temelleri (per user direction "c→a→b")
