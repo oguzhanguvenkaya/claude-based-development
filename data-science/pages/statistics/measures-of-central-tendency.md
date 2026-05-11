@@ -3,7 +3,7 @@ title: "Measures of Central Tendency"
 domain: data-science
 category: statistics
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-05-11
 sources:
   - "[[raw/course-notes/intro-to-descriptive-statistics]]"
 tags:
@@ -64,8 +64,10 @@ Central tendency answers: "What is a typical value in this dataset?" The choice 
 - Related: [[Measures of Spread]] — central tendency without spread is incomplete
 - Used by: [[Hypothesis Testing]] (comparing means), [[Linear Regression]] (minimizes mean squared error)
 - Compare with: [[Robust Statistics]] — methods designed for outlier resistance
+- Computed via: [[Sum Avg Min Max]] (AVG = mean), [[Count and Countif]] (n for the denominator), [[Group By]] + ORDER BY for mode; median uses `APPROX_QUANTILES(col, 100)[OFFSET(50)]` in BigQuery. See [[SQL Computed Data Overview]] for the broader aggregation toolkit.
 
 ## My Notes
 
 - Quick skewness test: if mean > median → right-skewed, if mean < median → left-skewed
 - In real-world data, always check both mean AND median — the gap tells you about skewness
+- In SQL the trio is rarely all available natively — `AVG` is built-in, median needs an approx function, mode needs a separate GROUP BY query. See [[Select Statement]] and aggregation lessons.

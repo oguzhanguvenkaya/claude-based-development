@@ -3,7 +3,7 @@ title: "Descriptive Statistics"
 domain: data-science
 category: statistics
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-05-11
 sources:
   - "[[raw/course-notes/intro-to-descriptive-statistics]]"
 tags:
@@ -63,6 +63,7 @@ Descriptive statistics reduce large datasets into interpretable summaries. They 
 - Builds on: Basic arithmetic, sorting algorithms
 - Compare with: [[Inferential Statistics]] (descriptive describes, inferential concludes)
 - Used by: [[Exploratory Data Analysis]], [[Feature Engineering]]
+- Computed in SQL via: [[SQL Fundamentals Overview]] — COUNT/AVG/MIN/MAX/STDDEV are first-class aggregates; see [[Select Statement]] and [[Distinct and Deduplication]] for the building blocks
 
 ## My Notes
 

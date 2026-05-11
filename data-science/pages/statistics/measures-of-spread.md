@@ -3,7 +3,7 @@ title: "Measures of Spread"
 domain: data-science
 category: statistics
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-05-11
 sources:
   - "[[raw/course-notes/intro-to-descriptive-statistics]]"
 tags:
@@ -68,6 +68,7 @@ Spread (or dispersion) answers: "How much do values vary from the typical value?
 - Used by: [[Hypothesis Testing]] (standard error = SD / sqrt(n))
 - Related: [[Box Plots]], [[Normal Distribution]]
 - Applied in: [[Feature Scaling]] (standardization uses mean and std dev)
+- Computed via: [[Sum Avg Min Max]] (MIN/MAX for range), `STDDEV(col)` and `VARIANCE(col)` built-in BigQuery aggregates, `APPROX_QUANTILES(col, 4)` for Q1/Q3 (IQR). See [[SQL Computed Data Overview]] for the full aggregate toolkit.
 
 ## My Notes
 
