@@ -84,7 +84,7 @@ Every later lesson (joins, aggregations, window functions, CTEs) **assumes** flu
 
 ## Connections
 
-- Builds on: spreadsheet thinking (rows, columns, formulas) — SQL extends it to billions of rows
+- Builds on: spreadsheet thinking (rows, columns, formulas) — SQL extends it to billions of rows. See [[Google Sheets Analytics Overview]] for the Sheets ↔ SQL concept bridge.
 - Related: [[Descriptive Statistics]] (analytics often starts with SQL aggregates that compute these), [[Measures of Central Tendency]] (COUNT, AVG, MIN, MAX are descriptive stats)
 - Compare with: pandas in Python (similar operations, imperative syntax); spreadsheets (limited scale)
 - Used by: every other SQL lesson — aggregations, joins, window functions, CTEs, advanced SQL

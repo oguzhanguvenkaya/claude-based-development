@@ -2,10 +2,47 @@
 title: "Data Science Wiki — Index"
 domain: data-science
 updated: 2026-05-11
-total_pages: 57
+total_pages: 82
 ---
 
 # Data Science Wiki — Index
+
+## Data Analysis
+
+### Sprint 1 Wrap-Up Umbrella
+- [[Sprint 1 Data Analytics Fundamentals Overview]] — Complete map of all 25 Sprint 1 pages across the 4 lessons
+
+### Google Sheets Fundamentals (Sprint 1 / Lesson 1)
+- [[Google Sheets Analytics Overview]] — Umbrella + Sheets ↔ SQL concept bridge
+- [[Data Analysis Workflow]] — The 7-step methodology (ask → identify → choose type → explore → clean → summarize → visualize)
+- [[Importing Data to Sheets]] — CSV import, IMPORTRANGE for live links
+- [[Data Exploration and Cleaning Sheets]] — EDA + cleaning techniques (TRIM, UPPER, deduplication)
+- [[Lookup Functions Sheets]] — XLOOKUP, VLOOKUP, INDEX-MATCH compared
+- [[Pivot Tables Sheets]] — The spreadsheet equivalent of GROUP BY
+- [[Filter Query Unique Sheets]] — FILTER, QUERY (SQL-in-Sheets), UNIQUE
+- [[Data Visualization Sheets]] — Charts, slicers, dashboards
+
+### Workflow Deep Dive + KPI Fundamentals (Sprint 1 / Lesson 2)
+- [[Seven Step Framework in Practice]] — All 7 steps walked through narratively (GreenFit case)
+- [[KPI Fundamentals]] — What is a KPI, KPI vs metric, vanity metrics, lead vs lag indicators
+- [[Finance KPIs]] — Gross margin, net margin, profitability fundamentals
+- [[Inventory KPIs]] — Stockout rate, days of supply, carrying cost trade-off
+- [[Quality KPIs]] — Return rate, returns by reason, financial impact of returns
+
+### Advanced KPI Strategy + Customer Analytics (Sprint 1 / Lesson 3)
+- [[KPI by Business Model]] — B2C vs B2B, transactional vs subscription, maturity stage
+- [[KPI by Team and Function]] — Per-team KPI design and the North Star dashboard pattern
+- [[Vanity Metrics Anti Patterns]] — Avoiding metrics that flatter but don't drive action; Goodhart's Law
+- [[Customer Acquisition and Expansion Funnels]] — Acquisition channels, CAC, retention, LTV, NRR
+- [[Customer Segmentation Rfm]] — Recency/Frequency/Monetary scoring with named segments
+- [[Cohort Analysis]] — Time-based grouping to reveal trends that averages hide
+
+### Data Ecosystem, Roles, and Real-World Cases (Sprint 1 / Lesson 4)
+- [[Data Professional Role and Collaboration]] — The translator/bridge role + 4-step business↔data collaboration framework
+- [[Data Lifecycle]] — Six stages: collect → store → clean → transform → analyze → feedback
+- [[Data Team Roles and Responsibilities]] — Engineer / Analytics Engineer / Analyst / BA / Scientist / ML Engineer (construction crew metaphor)
+- [[Data Team Maturity Evolution]] — Early → Growth → Mature: how teams scale with company size
+- [[Real World Data Analytics Case Studies]] — Museum, Nestlé, Vodafone, US grocery chain
 
 ## Statistics
 - [[Descriptive Statistics]] — Methods for summarizing datasets using central tendency, spread, and shape

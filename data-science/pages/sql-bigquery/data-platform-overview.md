@@ -118,7 +118,7 @@ A small startup can get away with ad-hoc governance. A 500-person company cannot
 
 ## Connections
 
-- Related: [[Data Pipeline Architecture]] (the transformation layer inside the platform), [[OLTP vs OLAP]] (the platform sits on the OLAP side), [[Modern Warehouse Comparison]] (choosing the storage layer), [[Warehouse Storage vs Compute Cost]] (the economics)
+- Related: [[Data Pipeline Architecture]] (the transformation layer inside the platform), [[OLTP vs OLAP]] (the platform sits on the OLAP side), [[Modern Warehouse Comparison]] (choosing the storage layer), [[Warehouse Storage vs Compute Cost]] (the economics), [[Data Lifecycle]] (the operational counterpart — six stages from collection to feedback), [[Data Team Roles and Responsibilities]] (who builds each layer)
 - Builds on: every prior SQL lesson — the platform is the operating environment for everything you have learned
 - Compare with: monolithic data systems (Oracle DW in 2005) vs modern composable stack (vendor-per-layer)
 - Used by: every team beyond a one-analyst shop

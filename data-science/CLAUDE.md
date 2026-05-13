@@ -8,6 +8,7 @@ Personal knowledge base covering statistics, machine learning, math foundations,
 - **machine-learning**: Supervised, unsupervised, ensemble, deep learning
 - **math-foundations**: Linear algebra, calculus, optimization, probability
 - **sql-bigquery**: SQL patterns, BigQuery-specific, data warehousing
+- **data-analysis**: Google Sheets analytics, KPI design, business analysis workflow
 - **python-data**: pandas, numpy, scikit-learn, visualization
 - **projects**: Kaggle, EDA checklists, project templates
 

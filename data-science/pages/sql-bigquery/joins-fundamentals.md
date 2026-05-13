@@ -107,7 +107,7 @@ Rarely intentional, often a bug — when ON conditions are missing or wrong, the
 
 - Related: [[Join Types]] (which rows survive the join), [[Multiple Joins]] (chaining 3+ tables), [[Joins with Group By]] (aggregating joined data), [[Join Pitfalls Grain and Fan Out]] (what to watch for)
 - Builds on: [[Relational Data Model]] (PK/FK relationships), [[Entity Relationship Diagrams]] (the join path you follow), [[Select Statement]] (JOIN sits between FROM and WHERE)
-- Compare with: [[Nested Subqueries]] and [[Common Table Expressions Cte]] (often a JOIN can be rewritten as a subquery; see [[Join vs Subquery]] for when to pick each)
+- Compare with: [[Nested Subqueries]] and [[Common Table Expressions Cte]] (often a JOIN can be rewritten as a subquery; see [[Join vs Subquery]] for when to pick each). The spreadsheet equivalent is [[Lookup Functions Sheets]] (VLOOKUP / XLOOKUP).
 - Used by: every multi-table analytical query
 
 ## My Notes

@@ -84,7 +84,7 @@ This answers: "how many unique customers placed at least one order?" Different f
 - Related: [[Select Statement]] (DISTINCT is a SELECT modifier), [[Conditional Expressions SQL]] (often used together for cohort lists), [[Count and Countif]] (`COUNT(DISTINCT col)` is the most common DISTINCT pattern)
 - Builds on: set theory — DISTINCT enforces the mathematical definition of a set
 - Compare with: [[Group By]] (more flexible, allows aggregations); `ROW_NUMBER() OVER (...)` (for keeping the first occurrence of duplicates instead of collapsing them — see [[Window Functions Fundamentals]])
-- Used by: [[Measures of Central Tendency]] (counting unique values is a basic descriptive statistic); a common workaround for [[Join Pitfalls Grain and Fan Out]] (though pre-aggregation is usually cleaner)
+- Used by: [[Measures of Central Tendency]] (counting unique values is a basic descriptive statistic); a common workaround for [[Join Pitfalls Grain and Fan Out]] (though pre-aggregation is usually cleaner). The spreadsheet equivalent is the UNIQUE function — see [[Filter Query Unique Sheets]].
 
 ## My Notes
 

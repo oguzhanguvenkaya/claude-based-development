@@ -162,3 +162,111 @@ updated: 2026-05-11
   - dbt models and orchestration — Sprint 3 / Lessons 3-4 (not yet held)
   - Sprint 1 lessons (Google Sheets, KPI, Data Ecosystem) — still pending
 - Next: Sprint 1 / Lesson 1 — Google Sheets ile Analizin Temelleri (per user direction "c→a→b")
+
+## [2026-05-12] ingest | Sprint 1 / Lesson 1 — Google Sheets ile Analizin Temelleri
+- Source: `raw/course-notes/sprint 1/01-google-sheets-ile-analizin-temelleri/transcripts/` (11 transcripts)
+- New category created: `data-analysis/` (will also house upcoming Sprint 1 lessons 2-4)
+- Pages created (8):
+  - Workflow: [[Data Analysis Workflow]] (7-step framework)
+  - Sheets toolkit: [[Importing Data to Sheets]], [[Data Exploration and Cleaning Sheets]], [[Lookup Functions Sheets]] (3 transcripts merged: VLOOKUP + XLOOKUP + INDEX-MATCH), [[Pivot Tables Sheets]], [[Filter Query Unique Sheets]] (3 transcripts merged: FILTER + QUERY + UNIQUE), [[Data Visualization Sheets]]
+  - Umbrella: [[Google Sheets Analytics Overview]] — includes a Sheets ↔ SQL concept bridge table
+- Pages revised (5):
+  - [[SQL Fundamentals Overview]] — linked to Google Sheets Analytics Overview as the spreadsheet ancestor
+  - [[Group By]] — linked to Pivot Tables Sheets (spreadsheet equivalent)
+  - [[Joins Fundamentals]] — linked to Lookup Functions Sheets (VLOOKUP/XLOOKUP as JOIN ancestors)
+  - [[Filtering Where]] — linked to Filter Query Unique Sheets (FILTER as WHERE ancestor)
+  - [[Distinct and Deduplication]] — linked to UNIQUE function in Sheets
+- CLAUDE.md updated: added `data-analysis` to category taxonomy
+- Wikilinks added: ~50 new cross-references; strong Sheets ↔ SQL bridge built
+- Key takeaways:
+  - The 7-step workflow (ask → identify → type → explore → clean → summarize → visualize) is the universal analytical framework — applies in Sheets, SQL, and Python alike
+  - Every Sheets concept has a SQL ancestor: pivot ≈ GROUP BY, lookup ≈ JOIN, FILTER ≈ WHERE, UNIQUE ≈ DISTINCT
+  - XLOOKUP is the modern default; INDEX-MATCH was the expert workaround for VLOOKUP limits before XLOOKUP existed
+  - QUERY function brings SQL fluency to Sheets — letter-based column refs are awkward but the power is significant
+  - Practical Sheets limit: ~100k–500k rows; beyond that, switch to BigQuery or Connected Sheets
+- Open questions:
+  - KPI design and the 7-step framework deeper coverage — Sprint 1 / Lesson 2 (next ingest)
+  - Advanced KPI patterns (customer journey, RFM, cohort) — Sprint 1 / Lesson 3
+  - Data ecosystem and roles — Sprint 1 / Lesson 4
+- Next: Sprint 1 / Lesson 2 — KPI'ın Temelleri
+
+## [2026-05-12] ingest | Sprint 1 / Lesson 2 — KPI'ın Temelleri
+- Source: `raw/course-notes/sprint 1/02-kpi-temelleri/transcripts/` (13 transcripts)
+- Two distinct themes: 7-step framework deep dive (01-08) + KPI fundamentals (09-13)
+- Pages created (5):
+  - Workflow practice: [[Seven Step Framework in Practice]] (8 transcripts merged with GreenFit case study)
+  - KPI core: [[KPI Fundamentals]] (transcripts 09 + 10)
+  - Department-specific: [[Finance KPIs]] (11), [[Inventory KPIs]] (12), [[Quality KPIs]] (13)
+- Pages revised (2):
+  - [[Data Analysis Workflow]] — linked to deep-dive page + KPI examples (My Notes)
+  - [[Google Sheets Analytics Overview]] — updated Lesson 2 status from "upcoming" to "ingested"
+- Wikilinks added: ~30 new cross-references; department KPIs richly cross-linked to SQL aggregates (Sum/Count/SafeDivide/etc.)
+- Key takeaways:
+  - The 7-step framework is **iterative, not linear** — MIT Sloan research shows iterative approaches outperform linear pursuit
+  - KPI definition test: **"if this number moves, do we change behavior?"** — distinguishes KPIs from supporting metrics
+  - Each business team has 1–3 KPIs max (vital few principle); more dilutes attention
+  - Finance: gross + net margin; Inventory: stockout rate; Quality: return rate — each is the headline that says "are we winning"
+  - Lead indicators (predict outcomes) + Lag indicators (measure outcomes) — good KPI systems include both
+  - Return rate trade-off: too-strict policy hurts customer LTV; optimal is not zero
+  - Inventory: stockout vs carrying cost trade-off; per-SKU policies via ABC analysis
+- Open questions:
+  - Customer journey funnel + segmentation + cohort analysis — Sprint 1 / Lesson 3 (next ingest)
+  - Data ecosystem and team roles — Sprint 1 / Lesson 4
+- Next: Sprint 1 / Lesson 3 — İleri Seviye KPI'lar
+
+## [2026-05-12] ingest | Sprint 1 / Lesson 3 — İleri Seviye KPI'lar
+- Source: `raw/course-notes/sprint 1/03-ileri-seviye-kpi/transcripts/` (10 transcripts; video 06 missing — duplicate clip ID in source)
+- Three themes: KPI selection strategy (01-05) + customer journey (07-08) + segmentation/cohort (09-11)
+- Pages created (6):
+  - KPI strategy: [[KPI by Business Model]] (01, 02, 03 merged), [[KPI by Team and Function]] (04), [[Vanity Metrics Anti Patterns]] (05)
+  - Customer journey: [[Customer Acquisition and Expansion Funnels]] (07, 08 merged)
+  - Segmentation: [[Customer Segmentation Rfm]] (09, 10 merged), [[Cohort Analysis]] (11)
+- Pages revised (4):
+  - [[KPI Fundamentals]] — added cross-links to all three new KPI strategy pages
+  - [[Google Sheets Analytics Overview]] — updated Lesson 3 status to "ingested"
+  - [[Window Functions Fundamentals]] — linked to Cohort Analysis and RFM Segmentation as concrete use cases of NTILE/RANK
+  - [[Finance KPIs]] — linked to Customer Acquisition and Expansion Funnels (CAC/LTV/NRR are finance-adjacent)
+- Wikilinks added: ~50 new cross-references; customer analytics now richly connected to SQL window functions and aggregation
+- Key takeaways:
+  - **70% of corporate KPIs do not reflect strategy** — the "match KPI to context" discipline is the single biggest improvement most teams can make
+  - Context layers: business model (B2C/B2B) → commercial model (subscription/transaction) → maturity stage (growth/scale/mature)
+  - Goodhart's Law: "when a measure becomes a target, it ceases to be a good measure" — choose KPIs that cannot be gamed without moving the underlying outcome
+  - Acquisition funnel + Expansion funnel are complementary; healthy growth requires both flowing
+  - LTV / CAC > 3 is sustainable; CAC payback < 12 months is healthy SaaS
+  - RFM is the highest-ROI behavioral segmentation: Recency × Frequency × Monetary scored 1-5 each → named segments (Champions, At-risk, Hibernating)
+  - **Cohort analysis: "the diagonal is the story"** — cohort table diagonals reveal whether retention is improving over time, hidden by aggregate metrics
+- Open questions:
+  - Data ecosystem, roles, team dynamics, real-world case studies — Sprint 1 / Lesson 4 (final Sprint 1 ingest)
+  - Sprint 1 will be **complete** after Lesson 4
+- Next: Sprint 1 / Lesson 4 — Data Analiz Ekosistemi
+
+## [2026-05-12] ingest | Sprint 1 / Lesson 4 — Data Analiz Ekosistemi (FINAL Sprint 1 lesson)
+- Source: `raw/course-notes/sprint 1/04-data-analiz-ekosistemi/transcripts/` (11 transcripts)
+- Four themes: Role & Collaboration (01-02) + Case Studies (03-05, 11) + Data Lifecycle (06) + Team Roles & Maturity (07-10)
+- Pages created (6):
+  - Role: [[Data Professional Role and Collaboration]] (01, 02 merged — translator role + 4-step framework)
+  - Lifecycle: [[Data Lifecycle]] (06 — 6 stages)
+  - Roles: [[Data Team Roles and Responsibilities]] (07, 08, 09 merged — construction crew metaphor)
+  - Maturity: [[Data Team Maturity Evolution]] (10 — Early/Growth/Mature stages)
+  - Cases: [[Real World Data Analytics Case Studies]] (03, 04, 05, 11 — Museum/Nestlé/Vodafone/Grocery)
+  - **Sprint 1 wrap-up umbrella**: [[Sprint 1 Data Analytics Fundamentals Overview]] — maps all 25 Sprint 1 pages with cross-links + Sprint 2 bridge
+- Pages revised (3):
+  - [[Google Sheets Analytics Overview]] — Lesson 4 status updated to "ingested" + link to wrap-up umbrella
+  - [[Data Platform Overview]] (Sprint 3) — linked to Data Lifecycle (operational counterpart) and Data Team Roles
+  - [[KPI by Team and Function]] — linked to Data Team Roles
+- Wikilinks added: ~50 new cross-references; Sprint 1 now fully integrated into the wiki
+- Key takeaways:
+  - **Data professional = translator** between raw data and business decisions; the "bridge" role
+  - **4-step collaboration framework**: identify teams → understand needs → connect tools → place data team at center
+  - **6-stage data lifecycle**: collect, store, clean, transform, analyze, **feedback** (reverse ETL — often the missing stage)
+  - **Construction crew role metaphor**: Data Engineer (foundation), Analytics Engineer (framer), Data Analyst (decorator), Business Analyst (gardener), Data Scientist (predictive architect), ML Engineer (production ops)
+  - **Team maturity curve**: Early (Sheets, 1 generalist) → Growth (warehouse + dbt, 2-5 people) → Mature (specialized roles, governance, 15-100+ people)
+  - Case study pattern recognition: stakeholder mapping first, normalization, phased rollout, measurement-before-launch
+  - The case studies show that 70% of an analyst's value is non-technical: stakeholder management, domain understanding, communication
+- **SPRINT 1 MILESTONE**: all 4 lessons + wrap-up umbrella **ingested** ✓
+  - 25 wiki pages in data-analysis category from 45 lecture videos
+  - Sprint 1 ↔ Sprint 2 bridge table established and maintained
+  - Cross-sprint link density: ~150+ links between data-analysis and sql-bigquery categories
+- Open questions:
+  - Sprint 3 / Lessons 2-5 (Git, dbt) not yet held; await scheduling
+- Next: cleanup / commit / push; await Sprint 3 future lessons or other curriculum direction

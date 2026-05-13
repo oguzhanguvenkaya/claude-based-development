@@ -119,7 +119,7 @@ WHERE filters **before** GROUP BY; HAVING filters **after**. See [[Where vs Havi
 - Related: [[Count and Countif]], [[Sum Avg Min Max]] (the aggregates GROUP BY enables), [[Where vs Having]] (pre vs post filter), [[Distinct and Deduplication]] (DISTINCT is equivalent to GROUP BY without aggregates)
 - Builds on: [[Select Statement]], [[Filtering Where]]
 - Compare with: [[Window Functions Fundamentals]] (`SUM(x) OVER (PARTITION BY y)`) — same partitioning idea but every original row is preserved
-- Used by: every dashboard query, every cohort analysis, every per-segment KPI; especially relevant after joins — see [[Joins with Group By]] and [[Join Pitfalls Grain and Fan Out]]
+- Used by: every dashboard query, every cohort analysis, every per-segment KPI; especially relevant after joins — see [[Joins with Group By]] and [[Join Pitfalls Grain and Fan Out]]. The spreadsheet equivalent is [[Pivot Tables Sheets]].
 
 ## My Notes
 

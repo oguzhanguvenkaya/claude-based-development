@@ -176,7 +176,7 @@ Avoids repeating the partition clause. Optional but improves readability when ma
 - Related: [[Functions in SQL Overview]] (window functions are one of the four function families), [[Group By]] (the aggregate alternative), [[Window Functions Across Grain]] (advanced use), [[Sum Avg Min Max]] (the underlying aggregates)
 - Builds on: [[Joins Fundamentals]] (windows often replace problematic joins)
 - Compare with: pandas `.transform()` (preserves rows, similar concept), pandas `.rolling()` (frame-based windows)
-- Used by: cohort analysis (see [[Measures of Central Tendency]]), funnel analysis, top-N queries, time-series analytics
+- Used by: [[Cohort Analysis]], funnel analysis, top-N queries, time-series analytics, [[Customer Segmentation Rfm]] (NTILE for RFM scoring)
 
 ## My Notes
 
