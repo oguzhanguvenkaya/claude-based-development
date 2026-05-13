@@ -277,7 +277,23 @@ For the full filename-to-title mapping, see the companion file `notebooklm-video
 
 ## 6. Wiki Knowledge Already Built (Reference)
 
-We have authored 33 long-form wiki pages from the lecture transcripts of Sprint 2 Lessons 1–3. NotebookLM can use the videos directly; the wiki is for human reading and is summarized here so the LLM understands what's already been distilled.
+We have authored **82 long-form wiki pages** covering Sprint 1 (all 4 lessons), Sprint 2 (all 5 lessons), and Sprint 3 / Lesson 1. NotebookLM can use the videos directly; the wiki is for human reading and is summarized here so the LLM understands what's already been distilled.
+
+**Wiki structure:**
+```
+data-science/pages/
+├── statistics/           (3 pages — pre-existing)
+├── sql-bigquery/         (54 pages — Sprint 2 L1-5 + Sprint 3 L1)
+└── data-analysis/        (25 pages — Sprint 1 L1-4 + wrap-up umbrella)
+                          ─────
+                          82 total
+```
+
+**Sprint umbrellas** (entry points):
+- `data-analysis/sprint-1-data-analytics-fundamentals-overview.md` — Sprint 1 hub
+- `sql-bigquery/sql-fundamentals-overview.md` — Sprint 2 / Lesson 1 hub
+- `sql-bigquery/sql-computed-data-overview.md` — Sprint 2 / Lesson 2 hub
+- `sql-bigquery/data-warehouse-economics-overview.md` — Sprint 3 / Lesson 1 hub
 
 | Topic | Wiki Page | Source Videos |
 |-------|-----------|---------------|
@@ -322,7 +338,25 @@ We have authored 33 long-form wiki pages from the lecture transcripts of Sprint 
 | Central tendency | `measures-of-central-tendency.md` | (same) |
 | Spread | `measures-of-spread.md` | (same) |
 
-**Not yet ingested into wiki:** Sprint 1 (all 4 lessons, 45 videos), Sprint 2 Lessons 4–5 (11 videos), Sprint 3 Lesson 1 (13 videos). Total = 69 videos pending ingestion.
+**Wiki pages by source** (full table):
+
+| Source lesson | Wiki pages | Category |
+|---------------|:----------:|----------|
+| Sprint 1 / L1: Google Sheets | 8 | data-analysis |
+| Sprint 1 / L2: KPI Fundamentals | 5 | data-analysis |
+| Sprint 1 / L3: Advanced KPI + Customer Analytics | 6 | data-analysis |
+| Sprint 1 / L4: Data Ecosystem | 5 | data-analysis |
+| Sprint 1 wrap-up umbrella | 1 | data-analysis |
+| Sprint 2 / L1: SQL Fundamentals | 14 | sql-bigquery |
+| Sprint 2 / L2: Computed Data | 10 | sql-bigquery |
+| Sprint 2 / L3: JOINs + Testing | 9 | sql-bigquery |
+| Sprint 2 / L4: Subquery + CTE | 6 | sql-bigquery |
+| Sprint 2 / L5: Functions + Window | 4 | sql-bigquery |
+| Sprint 3 / L1: Data Warehouse Economics | 11 | sql-bigquery |
+| Statistics (separate raw source) | 3 | statistics |
+| **Total** | **82** | |
+
+**Coverage:** 100% of held lessons (108 videos across 10 active lessons) are now ingested into the wiki. Sprint 3 Lessons 2-5 are not yet held; no wiki content pending for them.
 
 ---
 
@@ -379,8 +413,9 @@ If you want NotebookLM to also see the long-form wiki notes, upload the markdown
 ## 10. Document Version
 
 - **Created:** 11 May 2026
+- **Last updated:** 13 May 2026
 - **Total videos covered:** 108
-- **Wiki pages cross-referenced:** 33 (Sprint 2 Lessons 1–3 fully ingested)
-- **Ingestion status:** ~36% (39/108 videos turned into long-form wiki pages); remaining 69 videos are transcribed but not yet structured into wiki entries
+- **Wiki pages cross-referenced:** 82 (all held lessons fully ingested)
+- **Ingestion status:** 100% of held content (108/108 videos turned into wiki pages); Sprint 3 Lessons 2-5 await scheduled course delivery
 
 For the flat per-video catalog with file paths and titles, see `_meta/notebooklm-video-catalog.md`.

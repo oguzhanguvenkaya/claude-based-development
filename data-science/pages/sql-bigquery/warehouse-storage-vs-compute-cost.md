@@ -56,7 +56,7 @@ SELECT order_id, amount FROM orders WHERE order_date = '2026-05-12';
 ```
 
 BigQuery prices this query on:
-1. **Columns scanned**: `order_id` + `amount` only (it skips other columns entirely — see [[Columnar Storage and Cost]])
+1. **Columns scanned**: `order_id` + `amount` only (it skips other columns entirely — see [[Bigquery Query Cost Model]])
 2. **Rows scanned**: depends on partitioning — if `orders` is partitioned by `order_date`, only the one partition is scanned
 3. **Bytes per row**: the type-size of `order_id` (INT64 = 8 bytes) + `amount` (NUMERIC = ~16 bytes)
 4. **Min charge**: 10 MB minimum per query
@@ -115,7 +115,7 @@ The materialized table saves ~$560/day in compute for a ~$0.20/day storage cost.
 
 ## Connections
 
-- Related: [[Warehouse Pricing Models]] (on-demand vs flat-rate), [[Bigquery Query Cost Model]] (BigQuery-specific details), [[Columnar Storage and Cost]] (why column selection matters), [[Partitioning and Clustering]] (the main compute-side optimization), [[Views vs Tables Tradeoffs]]
+- Related: [[Warehouse Pricing Models]] (on-demand vs flat-rate), [[Bigquery Query Cost Model]] (BigQuery-specific details including why column selection matters), [[Partitioning and Clustering]] (the main compute-side optimization), [[Views vs Tables Tradeoffs]]
 - Builds on: [[Data Platform Overview]], [[Data Pipeline Architecture]]
 - Compare with: traditional databases (storage + compute coupled to a single server's resources)
 - Used by: every cost-conscious data team; warehouse spend is often a top-3 line item in tech budgets

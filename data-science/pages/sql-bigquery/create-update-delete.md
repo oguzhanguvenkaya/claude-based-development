@@ -139,7 +139,7 @@ ALTER TABLE customers RENAME COLUMN city TO city_name;
 
 ## Connections
 
-- Related: [[Relational Data Model]] (CREATE materializes the model), [[Select Statement]] (CTAS combines SELECT and CREATE), [[Oltp Vs Olap]] (DDL/DML cost profile differs by system)
+- Related: [[Relational Data Model]] (CREATE materializes the model), [[Select Statement]] (CTAS combines SELECT and CREATE), [[OLTP vs OLAP]] (DDL/DML cost profile differs by system)
 - Builds on: schema design and transaction theory
 - Compare with: dbt (modern data warehouses prefer declarative model files over imperative DDL); SQLAlchemy ORM (programmatic schema management)
 - Used by: every production data pipeline; the ingestion-specific pattern lives at [[Bigquery Insert with Cast Workflow]]; pipeline-level materialization choices live at [[Views vs Tables Tradeoffs]]

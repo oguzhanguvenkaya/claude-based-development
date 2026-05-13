@@ -76,7 +76,7 @@ This matters: you cannot reference a `SELECT` alias inside `WHERE` because `WHER
 - **`*` (asterisk)**: all columns. Convenient for exploration, wasteful in production.
 - **Column order in SELECT**: determines output column order — important for downstream consumers
 - **Computed expressions**: any function or operator can appear in a SELECT list — `ROUND()`, `CONCAT()`, arithmetic, etc.
-- **Subqueries in SELECT**: scalar subqueries can return one value per row (advanced; see [[Ctes and Subqueries]] in later lessons)
+- **Subqueries in SELECT**: scalar subqueries can return one value per row (advanced; see [[Common Table Expressions Cte]] in later lessons)
 
 ## When To Use
 

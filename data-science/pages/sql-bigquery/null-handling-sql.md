@@ -91,7 +91,7 @@ SELECT NULLIF(rating, -1) FROM reviews;
 ```sql
 -- If 'excluded_ids' contains NULL:
 WHERE customer_id NOT IN (SELECT id FROM excluded_ids)
--- Returns ZERO rows. See [[In And Not In]].
+-- Returns ZERO rows. See [[In and Not In]].
 ```
 
 Use `NOT EXISTS` to be safe.
@@ -116,7 +116,7 @@ Use `NOT EXISTS` to be safe.
 
 ## Connections
 
-- Related: [[Filtering Where]] (NULL handling rules apply in WHERE), [[In And Not In]] (NULL trap with NOT IN), [[Conditional Expressions SQL]] (CASE WHEN often handles NULLs), [[Safe Divide]] (a NULL-aware division operator from the same family)
+- Related: [[Filtering Where]] (NULL handling rules apply in WHERE), [[In and Not In]] (NULL trap with NOT IN), [[Conditional Expressions SQL]] (CASE WHEN often handles NULLs), [[Safe Divide]] (a NULL-aware division operator from the same family)
 - Builds on: three-valued logic (TRUE / FALSE / NULL)
 - Compare with: Python's `None`, R's `NA`, pandas' `NaN` — same conceptual problem, different APIs
 - Used by: every realistic dataset (real data is messy and full of NULLs); [[Count and Countif]] (the gap between COUNT(*) and COUNT(col) equals the NULL count)

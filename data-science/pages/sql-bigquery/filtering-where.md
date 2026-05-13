@@ -96,7 +96,7 @@ Inclusive on both ends. Equivalent to `order_date >= '2025-01-01' AND order_date
 
 ## Connections
 
-- Related: [[Select Statement]] (WHERE filters the rows that SELECT projects), [[In And Not In]] (cleaner alternative to long OR chains)
+- Related: [[Select Statement]] (WHERE filters the rows that SELECT projects), [[In and Not In]] (cleaner alternative to long OR chains)
 - Builds on: boolean algebra (AND/OR/NOT), three-valued logic (TRUE/FALSE/NULL)
 - Compare with: [[Where vs Having]] — HAVING filters **after** GROUP BY, on aggregates instead of rows
 - Used by: [[Conditional Expressions SQL]], [[Pattern Matching SQL]], [[Group By]], [[Date Arithmetic Date Sub]] (date range filters), every analytical query. The spreadsheet equivalent is [[Filter Query Unique Sheets]] (FILTER / QUERY).

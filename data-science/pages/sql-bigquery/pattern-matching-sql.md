@@ -112,7 +112,7 @@ WHERE REGEXP_CONTAINS(email, r'^[^@]+@[^@]+\.[^@]+$');
 
 ## Connections
 
-- Related: [[Filtering Where]] (LIKE is a comparison operator inside WHERE), [[In And Not In]] (use IN for finite lists, LIKE for shapes)
+- Related: [[Filtering Where]] (LIKE is a comparison operator inside WHERE), [[In and Not In]] (use IN for finite lists, LIKE for shapes)
 - Builds on: string operations, basic regex theory
 - Compare with: full-text search engines (Elasticsearch, BigQuery Search) — built for `%text%` patterns at scale
 - Used by: data cleaning, email/phone normalization
